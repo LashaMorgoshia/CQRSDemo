@@ -1,4 +1,5 @@
-﻿using CQRSDemo.Queries;
+﻿using CQRSDemo.Commands;
+using CQRSDemo.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,5 +23,8 @@ namespace CQRSDemo.Controllers
             var response = Mediator.Send(new GetTodoById.Query(id));
             return response != null ? Ok(response) : NotFound();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddTodo(AddTodo.Command command) => Ok(Mediator.Send(command));
     }
 }

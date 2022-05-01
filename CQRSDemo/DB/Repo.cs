@@ -4,13 +4,20 @@ namespace CQRSDemo.DB
 {
     public class Repo: IRepo
     {
-        public List<Todo> Todos() => new List<Todo>()
+        public List<Todo> Todos() => this.TodoList;
+
+        public void Add(Todo todo)
         {
-            new Todo{Id = 1, Name = "Cook dinner", Completed = false},
-            new Todo{Id = 2, Name = "Make Youtube video", Completed = true},
-            new Todo{Id = 3, Name = "Wash car", Completed = false},
-            new Todo{Id = 4, Name = "Practice programming", Completed = true},
-            new Todo{Id = 5, Name = "Take out garbage", Completed = false},
+            this.TodoList.Add(todo);
+        }
+
+        public List<Todo> TodoList { get; } = new List<Todo>
+        {
+            new Todo{Id = 1, Name = "Watch CQRS tutorial", Completed = false},
+            new Todo{Id = 2, Name = "Create sample project", Completed = true},
+            new Todo{Id = 3, Name = "Go to offroad", Completed = false},
+            new Todo{Id = 4, Name = "Go to gym", Completed = true},
+            new Todo{Id = 5, Name = "Take a walk", Completed = false},
         };
     }
 }
