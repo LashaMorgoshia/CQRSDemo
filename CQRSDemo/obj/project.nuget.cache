@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d0HjsFQRmixQuRZQ8r97zP5HO6teSpor5rLBraZcEAaHbGIWLq20AQ9IiGkoyS7HBP7/mmRR2/Zl4QvpqsUpsA==",
+  "dgSpecHash": "2b1zewhYHHq/zSUKqZ1GnlyaaCf+Lg9DZ77Gw/HgkPtVW269ptDf9b7GNk51taF9YF7LC6NfHV8jlBucxMizfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xnaga\\Source\\Repos\\CQRSDemo\\CQRSDemo\\CQRSDemo.csproj",
+  "projectFilePath": "C:\\GitHub\\CQRSDemo\\CQRSDemo\\CQRSDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xnaga\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\xnaga\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

@@ -411,26 +411,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xnaga\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\xnaga\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xnaga\\Source\\Repos\\CQRSDemo\\CQRSDemo\\CQRSDemo.csproj",
+      "projectUniqueName": "C:\\GitHub\\CQRSDemo\\CQRSDemo\\CQRSDemo.csproj",
       "projectName": "CQRSDemo",
-      "projectPath": "C:\\Users\\xnaga\\Source\\Repos\\CQRSDemo\\CQRSDemo\\CQRSDemo.csproj",
+      "projectPath": "C:\\GitHub\\CQRSDemo\\CQRSDemo\\CQRSDemo.csproj",
       "packagesPath": "C:\\Users\\xnaga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xnaga\\Source\\Repos\\CQRSDemo\\CQRSDemo\\obj\\",
+      "outputPath": "C:\\GitHub\\CQRSDemo\\CQRSDemo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\xnaga\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\VistaDB 6.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
